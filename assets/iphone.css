@@ -1,0 +1,41 @@
+
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 13px;
+}
+
+#main-container {
+  min-height: 400px;
+}
+
+#logo-container img {
+  height: 28px;
+  width: 28px;
+}
+
+#slogan-container {
+  margin-top: 40px;
+}
+
+#robot img {
+  height: 97px;
+  width: 265px;
+}
+
+#signup-container {
+  margin-top: 20px;
+}
+
+#mc_embed_signup {
+  margin: auto;
+  width: 300px;
+}
+
+#mc_embed_signup .email {
+  width: 240px;
+  font-size: 13px;
+}

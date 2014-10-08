@@ -1,0 +1,108 @@
+html { 
+  background: url(../images/bg_pattern.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 300;
+  color: #fff;
+}
+
+h3 {
+  font-size: 23px;
+  font-weight: 300;
+  color: #fff;
+  opacity: 0.7;
+  margin: 10px 0 0;
+}
+
+#main-container {
+  min-height: 500px;
+}
+
+#logo-container {
+  margin: 50px auto 0;
+  text-align: center;
+}
+
+#slogan-container {
+  margin: 80px auto 0;
+  text-align: center;
+}
+
+#robot-container {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}
+
+#robot img {
+  margin: auto;
+  display: block;
+  height: 194px;
+  width: 530px;
+}
+
+#signup-container {
+  margin: 80px auto 0;
+  text-align: center;
+}
+
+#mc_embed_signup {
+  margin: auto;
+  width: 380px;
+}
+
+#mc_embed_signup .email {
+  float: left;
+  height: 40px;
+  width: 320px;
+  padding: 0 0 0 15px;
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+#mc_embed_signup .button {
+  float: left;
+  width: 40px;
+  height: 40px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin: 0;
+  border: none;
+  background: url(../images/icon_mail.png) no-repeat center;
+  background-color: #D1D3D4;
+}
