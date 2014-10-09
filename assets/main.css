@@ -48,6 +48,11 @@ h3 {
   text-align: center;
 }
 
+#logo-container img {
+  height: 56px;
+  width: 56px;
+}
+
 #slogan-container {
   margin: 80px auto 0;
   text-align: center;
@@ -104,5 +109,6 @@ h3 {
   margin: 0;
   border: none;
   background: url(../images/icon_mail.png) no-repeat center;
+  background-size: 22px 18px;
   background-color: #D1D3D4;
 }
