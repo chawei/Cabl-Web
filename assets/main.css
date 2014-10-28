@@ -50,7 +50,7 @@ h3 {
 
 #logo-container img {
   height: 56px;
-  width: 56px;
+  width: 70px;
 }
 
 #slogan-container {
@@ -74,7 +74,12 @@ h3 {
 }
 
 #signup-container {
-  margin: 80px auto 0;
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+#download-container {
+  margin: 60px auto 0;
   text-align: center;
 }
 
