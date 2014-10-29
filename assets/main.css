@@ -83,6 +83,24 @@ h3 {
   text-align: center;
 }
 
+#download-container a {
+  display: inline-block;
+}
+
+#download-container .fb-icon {
+  margin-left: 10px;
+}
+
+#download-container .fb-icon img {
+  height: 40px;
+  width: 40px;
+}
+
+#download-container .twitter-icon img {
+  height: 40px;
+  width: 40px;
+}
+
 #mc_embed_signup {
   margin: auto;
   width: 380px;
